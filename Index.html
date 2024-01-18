@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Persegi Calculator</title>
+  </head>
+  <body>
+    <div id="calculator">
+      <h2>Persegi Calculator</h2>
+      <label for="sisi">Masukkan panjang sisi:</label>
+      <input type="number" id="sisi" placeholder="Panjang sisi" />
+      <br /><br />
+      <button onclick="hitung()">Hitung</button>
+      <button class="reset" onclick="reset()">Reset</button>
+      <br /><br />
+      <p>Luas Persegi: <span class="result" id="luas"></span></p>
+      <p>Keliling Persegi: <span class="result" id="keliling"></span></p>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
